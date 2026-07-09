@@ -1,6 +1,6 @@
-# VLSI Final Project — FIR + Async CDC FIFO + UART + Power Gating
+# Low-Power-CDC-DSP
 
-A complete digital signal processing chain implemented in Verilog: a 4-tap FIR filter feeding an asynchronous clock-domain-crossing FIFO, driving a UART transmitter — with a dedicated power controller that gates the filter's clock during idle periods. Synthesized on a Cyclone IV E FPGA with full static timing and power analysis.
+A low-power DSP system in Verilog: a 4-tap FIR filter feeding an asynchronous clock-domain-crossing FIFO, driving a UART transmitter — with a dedicated power controller that gates the filter's clock during idle periods. Synthesized on a Cyclone IV E FPGA with full static timing and power analysis.
 
 ---
 
